@@ -31,14 +31,14 @@ const itemsData = {
     {
       title: "Soft Focus",
       subtitle: "Everyday",
-      image: "/img/9.jpg",
+      image: "/img/ABAYA (1).jpg.jpeg",
       col: "col-span-12 md:col-span-3",
       row: "row-span-1",
     },
     {
       title: "Velvet Dreams",
       subtitle: "Evening",
-      image: "/img/15.jpg",
+      image: "/img/ABAYA (2).jpg.jpeg",
       col: "col-span-12 md:col-span-4",
       row: "row-span-1",
     },
