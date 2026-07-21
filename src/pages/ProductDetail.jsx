@@ -166,12 +166,12 @@ export default function ProductDetail() {
               >
                 {lang === 'ar' ? 'اسأل عن هذا' : 'Ask About This'}
               </a>
-              <a
-                href="/#contact"
+              <Link
+                to="/size-guide"
                 className={`flex-1 border border-black text-black py-4 px-8 text-xs tracking-[.2em] uppercase hover:bg-black hover:text-ivory transition-all duration-400 text-center ${lang === 'ar' ? 'arabic-text tracking-normal' : ''}`}
               >
-                {lang === 'ar' ? 'احجز زيارة' : 'Schedule a Visit'}
-              </a>
+                {lang === 'ar' ? 'دليل المقاسات' : 'Size Guide'}
+              </Link>
             </div>
 
             {/* Accordion Tabs */}

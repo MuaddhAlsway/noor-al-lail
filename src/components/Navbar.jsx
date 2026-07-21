@@ -22,6 +22,7 @@ export default function Navbar() {
     { label: t('nav.collection'), href: '/#collections' },
     { label: t('nav.about'), href: '/#brand-story' },
     { label: t('nav.lookbook'), href: '/#lookbook' },
+    { label: lang === 'ar' ? 'دليل المقاسات' : 'Size Guide', href: '/size-guide' },
   ];
 
   return (
