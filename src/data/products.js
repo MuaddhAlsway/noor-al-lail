@@ -14,9 +14,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1772474569781-2fb1c6539f8c?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1772474557170-4818d01d7bca?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1752702532556-2a0b095f3a98?w=800&q=80&fit=crop',
+      '/img/2.jpg',
+      '/img/3.jpg',
+      '/img/2.jpg',
     ],
     colors: [
       { name: 'Noir', hex: '#0A0A0A' },
@@ -40,9 +40,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1757329189791-10a95693352a?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1771495307120-dd557e4db001?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=800&q=80&fit=crop',
+      '/img/3.jpg',
+      '/img/8.jpg',
+      '/img/9.jpg',
     ],
     colors: [
       { name: 'Champagne Gold', hex: '#c9a96e' },
@@ -66,9 +66,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1772474528936-4f1187eb1611?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1772474569781-2fb1c6539f8c?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1770964211782-013475eacc3f?w=800&q=80&fit=crop',
+      '/img/8.jpg',
+      '/img/2.jpg',
+      '/img/9.jpg',
     ],
     colors: [
       { name: 'Dusk Brown', hex: '#4a4035' },
@@ -92,9 +92,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1752794674886-fb12817a5e96?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1776300597917-51e6c9f894cb?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=800&q=80&fit=crop',
+      '/img/10.jpg',
+      '/img/10.jpg',
+      '/img/9.jpg',
     ],
     colors: [
       { name: 'Ivory', hex: '#f0ebe3' },
@@ -118,9 +118,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1771495307120-dd557e4db001?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1757329189791-10a95693352a?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=800&q=80&fit=crop',
+      '/img/8.jpg',
+      '/img/3.jpg',
+      '/img/9.jpg',
     ],
     colors: [
       { name: 'Pearl White', hex: '#f5f5f5' },
@@ -143,9 +143,9 @@ export const products = [
       'Sizes: XS - XXL',
     ],
     images: [
-      'https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1752794674886-fb12817a5e96?w=800&q=80&fit=crop',
-      'https://images.unsplash.com/photo-1770964211782-013475eacc3f?w=800&q=80&fit=crop',
+      '/img/9.jpg',
+      '/img/10.jpg',
+      '/img/9.jpg',
     ],
     colors: [
       { name: 'Desert Rose', hex: '#d4a5a5' },
@@ -162,7 +162,7 @@ export const collections = [
     label: 'Celebration',
     count: 24,
     productId: 'midnight-noir',
-    image: 'https://images.unsplash.com/photo-1772474500365-c2c520545f44?w=800&q=80&fit=crop',
+    image: '/img/12.jpg',
   },
   {
     id: 'everyday-collection',
@@ -170,7 +170,7 @@ export const collections = [
     label: 'Essentials',
     count: 32,
     productId: 'ivory-whisper',
-    image: 'https://images.unsplash.com/photo-1752794674886-fb12817a5e96?w=800&q=80&fit=crop',
+    image: '/img/10.jpg',
   },
   {
     id: 'evening-collection',
@@ -178,7 +178,7 @@ export const collections = [
     label: 'Formal',
     count: 18,
     productId: 'velvet-dusk',
-    image: 'https://images.unsplash.com/photo-1772474557170-4818d01d7bca?w=800&q=80&fit=crop',
+    image: '/img/3.jpg',
   },
   {
     id: 'wedding-collection',
@@ -186,7 +186,7 @@ export const collections = [
     label: 'Bridal',
     count: 16,
     productId: 'golden-grace',
-    image: 'https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=800&q=80&fit=crop',
+    image: '/img/9.jpg',
   },
   {
     id: 'luxury-collection',
@@ -194,7 +194,7 @@ export const collections = [
     label: 'Premium',
     count: 12,
     productId: 'midnight-noir',
-    image: 'https://images.unsplash.com/photo-1772474528936-4f1187eb1611?w=800&q=80&fit=crop',
+    image: '/img/8.jpg',
   },
   {
     id: 'limited-edition',
@@ -202,6 +202,6 @@ export const collections = [
     label: 'Exclusive',
     count: 8,
     productId: 'golden-grace',
-    image: 'https://images.unsplash.com/photo-1771495307120-dd557e4db001?w=800&q=80&fit=crop',
+    image: '/img/8.jpg',
   },
 ];

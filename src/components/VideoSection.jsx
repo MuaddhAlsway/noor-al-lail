@@ -64,7 +64,7 @@ export default function VideoSection() {
       >
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1750190321721-422ce93c152d?w=1920&q=80&fit=crop"
+            src="/img/13.jpg"
             alt="Cinematic"
             className="h-full w-full object-cover"
           />

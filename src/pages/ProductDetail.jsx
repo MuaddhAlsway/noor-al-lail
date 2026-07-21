@@ -52,8 +52,8 @@ export default function ProductDetail() {
 
   useEffect(() => {
     if (!product) return;
-    gsap.from('.product-gallery', { opacity: 0, x: -40, duration: 0.8, ease: 'power3.out', delay: 0.2 });
-    gsap.from('.product-info', { opacity: 0, x: 40, duration: 0.8, ease: 'power3.out', delay: 0.3 });
+    gsap.fromTo('.product-gallery', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.8, ease: 'power3.out', delay: 0.2 });
+    gsap.fromTo('.product-info', { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.8, ease: 'power3.out', delay: 0.3 });
   }, [product]);
 
   if (!product) {
@@ -127,6 +127,13 @@ export default function ProductDetail() {
             
             <div className="w-16 h-px bg-gradient-to-r from-champagne to-champagne-light mb-6" />
             
+            <div className="mb-6">
+              <span className="font-serif text-3xl text-black">${product.price.toLocaleString()}</span>
+              {product.oldPrice && (
+                <span className="ml-3 text-lg text-med-grey line-through">${product.oldPrice.toLocaleString()}</span>
+              )}
+            </div>
+
             <p className={`text-med-grey leading-relaxed mb-8 ${lang === 'ar' ? 'arabic-text' : ''}`}>
               {product.description}
             </p>

@@ -115,7 +115,7 @@ export default function BrandStory() {
           <div ref={leftRef} className="relative">
             <div className="relative overflow-hidden rounded-sm img-luxury">
               <img
-                src="https://images.unsplash.com/photo-1752702532556-2a0b095f3a98?w=900&q=80&fit=crop"
+                src="/img/2.jpg"
                 alt="Heritage craftsmanship"
                 className="w-full h-[350px] md:h-[500px] lg:h-[600px] object-cover"
               />

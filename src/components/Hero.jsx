@@ -77,7 +77,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1750190321721-422ce93c152d?w=1920&q=85&fit=crop&crop=center')",
+            "url('/img/13.jpg')",
           transform: "scale(1.1)"
         }}
       />

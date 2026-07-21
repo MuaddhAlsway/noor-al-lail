@@ -51,7 +51,7 @@ export default function LimitedEdition() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1772474557170-4818d01d7bca?w=1920&q=80&fit=crop)",
+            "url(/img/3.jpg)",
         }}
       />
       {/* Dark overlay */}

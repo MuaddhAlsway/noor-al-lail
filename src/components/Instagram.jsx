@@ -3,12 +3,12 @@ import gsap from "gsap";
 import { useLanguage } from "../context/LanguageContext";
 
 const images = [
-  "https://images.unsplash.com/photo-1772474569781-2fb1c6539f8c?w=400&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1561442748-c50715dc32f6?w=400&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1772474528936-4f1187eb1611?w=400&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1770964211782-013475eacc3f?w=400&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1772474587292-08b3e8932acd?w=400&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1752702532556-2a0b095f3a98?w=400&q=80&fit=crop",
+  "/img/2.jpg",
+  "/img/9.jpg",
+  "/img/8.jpg",
+  "/img/9.jpg",
+  "/img/14.jpg",
+  "/img/2.jpg",
 ];
 
 export default function Instagram() {
